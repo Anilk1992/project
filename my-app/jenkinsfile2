@@ -1,6 +1,6 @@
 node{
 stage('SCM checkout'){
-git ''
+git 'https://github.com/Anilk1992/project.git'
 }
 stage('Compile-Package'){
 sh 'maven package'
